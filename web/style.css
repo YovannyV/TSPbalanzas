@@ -1,0 +1,168 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Jura', sans-serif;
+}
+.main-container {
+  max-width: 1200px;
+}
+.main-container h1,
+h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+.main-container p {
+  font-family: 'Jura', sans-serif;
+}
+/* Container */
+.main-container {
+  max-width: 1244px;
+  margin: 0 10px;
+}
+/* clases "padres" del Head */
+.top-main {
+  height: 70px;
+  margin: 20px auto;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+}
+.logo-brand {
+  width: 30%;
+  margin-left: 20px;
+  display: flex;
+}
+.top-bar {
+  width: 70%;
+}
+/*Logo principal de la pagina */
+.logo-main {
+  width: 200px;
+  height: 70px;
+  object-fit: cover;
+}
+/* Navegador superior, lista */
+.top-main-list {
+  height: 50px;
+  margin: 0px 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+.list-nav {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  margin: 15px 30px;
+}
+.list-nav :hover {
+  color: rgb(152, 154, 155);
+}
+
+/* Boton de "Presupuesto" */
+.btn-aser {
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgb(0, 37, 66);
+  color: #ffffff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border-style: none;
+  margin-right: 20px;
+}
+.btn-aser :hover {
+  color: rgb(136, 212, 250);
+}
+/* Seccion "Nosotros" */
+.nosotros {
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+  text-align: center;
+}
+.title-main {
+  width: 100%;
+  color: rgb(0, 37, 66);
+  font-weight: bold;
+  padding-top: 20px;
+}
+/* Tarjetas de mision, vision, objetivos  */
+.cards-nosotros {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card-content {
+  width: 31%;
+  height: 350px;
+  background-color: rgb(0, 37, 66);
+  margin: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  line-height: 25px;
+}
+.title-card {
+  padding: 15px;
+  font-size: 20px;
+}
+.card-content p {
+  padding: 10px;
+  font-size: 18px;
+}
+.card-content i {
+  font-size: 35px;
+  margin: 15px;
+}
+
+/* Seccion "productos" */
+.productos {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+/* Tarjetas de "comerciales, industriales, romanas" */
+.cards-productos {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.card-content-pro {
+  width: 31%;
+  height: 350px;
+  background-color: rgba(152, 154, 155, 0.267);
+  margin: 10px;
+  color: rgb(0, 37, 66);
+  border-radius: 5px;
+  line-height: 25px;
+}
+.title-pro {
+  font-size: 20px;
+  padding: 15px;
+}
+.card-content-pro p {
+  padding: 10px 15px;
+  font-size: 18px;
+}
+.btn-ctlogo {
+  background-color: rgb(0, 37, 66);
+  width: 120px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.btn-ctlogo a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+}
+.btn-ctlogo :hover {
+  color: rgb(136, 212, 250);
+}

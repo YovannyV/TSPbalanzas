@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TSP Balanzas</title>
+    <link rel="icon" href="/img/favicon-tsp.ico" type="image/ico" />
     <link
-      href="https://fonts.googleapis.com/css?family=Muli:300,400,500i,600,700,700i,800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="img/favicon-yv.ico" type="image/ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jura:wght@300;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/b3e336b578.js"
       crossorigin="anonymous"
@@ -21,7 +25,7 @@
         <div class="logo-brand">
           <img
             class="logo-main"
-            src="/img/logo-main.png"
+            src="/img/logo-main-tsp.png"
             alt="logo principal de la empresa TSP Balanzas"
           />
         </div>
@@ -48,67 +52,74 @@
         <h1 class="title-main">En TSP Balanzas creemos que...</h1>
         <br />
         <div class="cards-nosotros">
-          <div class="card-mision">
-            <h2>Mision</h2>
+          <div class="card-content">
+            <h2 class="title-card">Misión</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
               quasi? Impedit, obcaecati illum! Natus cumque ad distinctio
               cupiditate possimus laboriosam, in eveniet esse recusandae.
               Tenetur nisi non excepturi magnam aut.
             </p>
+            <i class="far fa-compass"></i>
           </div>
-          <div class="card-vision">
-            <h2>Vision</h2>
+          <div class="card-content">
+            <h2 class="title-card">Visión</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
               quasi? Impedit, obcaecati illum! Natus cumque ad distinctio
               cupiditate possimus laboriosam, in eveniet esse recusandae.
               Tenetur nisi non excepturi magnam aut.
             </p>
+            <i class="fas fa-glasses"></i>
           </div>
-          <div class="card-objetivo">
-            <h2>Objetivos</h2>
+          <div class="card-content">
+            <h2 class="title-card">Objetivos</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,
               quasi? Impedit, obcaecati illum! Natus cumque ad distinctio
               cupiditate possimus laboriosam, in eveniet esse recusandae.
               Tenetur nisi non excepturi magnam aut.
             </p>
+            <i class="fas fa-bullseye"></i>
           </div>
         </div>
       </section>
       <section class="productos" id="productos-id">
-        <h1>Nuestros productos</h1>
+        <h1 class="title-main">Nuestros productos</h1>
         <div class="cards-productos">
-          <div class="card-comerciales">
-            <h2>Comerciales</h2>
+          <div class="card-content-pro">
+            <h2 class="title-pro">Comerciales</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
               iste odio, vero vel culpa expedita, nesciunt cum eligendi
               temporibus aspernatur ipsum saepe accusantium. Quas perspiciatis
               ut provident labore ducimus? Sunt.
             </p>
-            <a href="#">Ver catalogo</a>
+            <button class="btn-ctlogo">
+              <a class="btn-ctlogo" href="#">Ver Catálogo</a>
+            </button>
           </div>
-          <div class="card-industriales">
-            <h2>Industriales</h2>
+          <div class="card-content-pro">
+            <h2 class="title-pro">Industriales</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
               iste odio, vero vel culpa expedita, nesciunt cum eligendi
               temporibus aspernatur ipsum saepe accusantium. Quas perspiciatis
               ut provident labore ducimus? Sunt.
             </p>
-            <a href="#">Ver catalogo</a>
+            <button class="btn-ctlogo">
+              <a class="btn-ctlogo" href="#">Ver Catálogo</a>
+            </button>
           </div>
-          <div class="card-romanas">
-            <h2>Romanas</h2>
+          <div class="card-content-pro">
+            <h2 class="title-pro">Romanas</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
               iste odio, vero vel culpa expedita, nesciunt cum eligendi
               temporibus aspernatur ipsum saepe accusantium. Quas perspiciatis
               ut provident labore ducimus? Sunt.
             </p>
-            <a href="#">Ver catalogo</a>
+            <button class="btn-ctlogo"><a href="#">Ver Catálogo</a></button>
           </div>
         </div>
       </section>
@@ -137,8 +148,8 @@
         <div class="nosotros">
           <a class="title-menu-bt" href="#nosotros-id"><h4>Nosotros</h4></a>
           <ul class="nosotros-list">
-            <li><a href="#nosotros-id">Mision</a></li>
-            <li><a href="#nosotros-id">Vision</a></li>
+            <li><a href="#nosotros-id">Misión</a></li>
+            <li><a href="#nosotros-id">Visión</a></li>
             <li><a href="#nosotros-id">Objetivos</a></li>
           </ul>
         </div>
@@ -161,7 +172,7 @@
           <input type="text" name="nombre-ctz" id="nombre-ctz" />
           <label for="correo-ctz">Correo</label>
           <input type="email" name="correo-ctz" id="correo-ctz" />
-          <label for="mensaje-ctz">Cual es tu necesidad?</label>
+          <label for="mensaje-ctz">¿Cual es tu necesidad?</label>
           <input type="text" name="mensaje-ctz" id="mensaje-ctz" />
           <input class="enviar-mkt" type="submit" value="Enviar" />
         </div>
@@ -169,6 +180,23 @@
           <p class="firm-text">Creado y diseñado por Nampil Studio©</p>
         </div>
       </footer>
+    </div>
+    <div class="modal">
+      <h1>Dejanos tus datos...</h1>
+      <p>
+        En momentos te enviaremos un correo con nuestros productos y precios…
+      </p>
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre-ctz" id="nombre-ctz" />
+      <label for="correo-ctz">Correo</label>
+      <input type="email" name="correo-ctz" id="correo-ctz" />
+      <!-- No estoy seguro si es mejor usar un boton o un input -->
+      <input
+        class="enviar-mkt"
+        type="submit"
+        value="Enviar"
+        id="envio-catalogo"
+      />
     </div>
   </body>
 </html>
