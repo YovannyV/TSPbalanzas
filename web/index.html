@@ -43,11 +43,19 @@
             <a class="list-nav" href="#form-id">
               <li>Contacto</li>
             </a>
-            <button class="btn-aser">Presupuesto</button>
+            <button class="btn-aser"><a href=""> Presupuesto </a></button>
           </ul>
         </nav>
       </div>
-      <section class="hero"></section>
+      <section class="hero">
+        <div class="slider">
+          <div class="slider-inner">
+            <div id="slide-1" class="slide"></div>
+            <div id="slide-2" class="slide"></div>
+            <div id="slide-3" class="slide"></div>
+          </div>
+        </div>
+      </section>
       <section class="nosotros" id="nosotros-id">
         <h1 class="title-main">En TSP Balanzas creemos que...</h1>
         <br />
@@ -124,57 +132,72 @@
         </div>
       </section>
       <section class="servicios" id="servicios-id">
+        <div class="slider-serv">
+          <div class="slider-inner-serv">
+            <div class="slide-1-serv"></div>
+            <div class="slide-2-serv"></div>
+          </div>
+        </div>
         <div class="aside-servicio">
-          <h2>Te ofrecemos</h2>
-          <h3>los mejores servicios</h3>
-          <h4>al mejor precio...</h4>
-          <a href="#">Pregunta</a>
+          <div class="aside-content">
+            <h2>Te ofrecemos</h2>
+            <h3>los mejores SERVICIOS</h3>
+            <h4>al mejor PRECIO...</h4>
+            <button class="btn-aside"><a href="#">Pregunta!</a></button>
+          </div>
         </div>
       </section>
       <footer>
-        <div class="redes-sociales">
-          <h4 class="title-foot">Sigueme:</h4>
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-instagram"></i>
+        <div class="seccion-1-foot">
+          <div class="redes-sociales">
+            <h4 class="title-foot">Pueden seguirnos en:</h4>
+            <div class="iconos-redes">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-instagram"></i>
+            </div>
+          </div>
+          <div class="politicas">
+            <h4 class="title-foot">Politicas</h4>
+            <ul class="politica-list">
+              <li><a href="#">Cokkies</a></li>
+              <li><a href="#">Politica de Privacidad</a></li>
+              <li><a href="#">Aviso Legal</a></li>
+            </ul>
+          </div>
+          <div class="nosotros-bottom">
+            <a class="title-menu-bt" href="#nosotros-id"><h4>Nosotros</h4></a>
+            <ul class="nosotros-list">
+              <li><a href="#nosotros-id">Misión</a></li>
+              <li><a href="#nosotros-id">Visión</a></li>
+              <li><a href="#nosotros-id">Objetivos</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="politicas">
-          <h4 class="title-foot">Politicas</h4>
-          <ul class="politica-list">
-            <li><a href="#">Cokkies</a></li>
-            <li><a href="#">Politica de Privacidad</a></li>
-            <li><a href="#">Aviso Legal</a></li>
-          </ul>
-        </div>
-        <div class="nosotros">
-          <a class="title-menu-bt" href="#nosotros-id"><h4>Nosotros</h4></a>
-          <ul class="nosotros-list">
-            <li><a href="#nosotros-id">Misión</a></li>
-            <li><a href="#nosotros-id">Visión</a></li>
-            <li><a href="#nosotros-id">Objetivos</a></li>
-          </ul>
-        </div>
-        <div class="productos-bottom">
-          <a class="title-menu-bt" href="#productos-id"><h4>Productos</h4></a>
-          <ul class="productos-list">
-            <li><a href="#productos-id">Comerciales</a></li>
-            <li><a href="#productos-id">Industriales</a></li>
-            <li><a href="#productos-id">Romanas</a></li>
-          </ul>
-        </div>
-        <div class="servicios-bottom">
-          <a class="title-menu-bt" href="#servicios-id">
-            <h4>Servicios</h4>
-          </a>
-          <p>Contactanos</p>
+        <div class="seccion-2-foot">
+          <div class="productos-bottom">
+            <a class="title-menu-bt" href="#productos-id"><h4>Productos</h4></a>
+            <ul class="productos-list">
+              <li><a href="#productos-id">Comerciales</a></li>
+              <li><a href="#productos-id">Industriales</a></li>
+              <li><a href="#productos-id">Romanas</a></li>
+            </ul>
+          </div>
+          <div class="servicios-bottom">
+            <a class="title-menu-bt" href="#servicios-id">
+              <h4>Servicios</h4>
+            </a>
+            <p>Contáctanos</p>
+          </div>
         </div>
         <div class="card-cotizacion">
-          <label for="nombre-ctz">Nombre</label>
+          <h3 class="title-cotizacion">Pide tu cotización...</h3>
+          <label for="nombre-ctz">Nombre y Apellido:</label>
           <input type="text" name="nombre-ctz" id="nombre-ctz" />
-          <label for="correo-ctz">Correo</label>
+          <label for="correo-ctz">Correo:</label>
           <input type="email" name="correo-ctz" id="correo-ctz" />
           <label for="mensaje-ctz">¿Cual es tu necesidad?</label>
           <input type="text" name="mensaje-ctz" id="mensaje-ctz" />
-          <input class="enviar-mkt" type="submit" value="Enviar" />
+          <button class="btn-ctz" id="enviar-peticion">Enviar</button>
         </div>
         <div class="firm">
           <p class="firm-text">Creado y diseñado por Nampil Studio©</p>
@@ -182,21 +205,17 @@
       </footer>
     </div>
     <div class="modal">
-      <h1>Dejanos tus datos...</h1>
+      <h2>Dejanos tus datos...</h1>
       <p>
-        En momentos te enviaremos un correo con nuestros productos y precios…
+        En momentos te enviaremos un correo con nuestros productos, servicios y
+        sus respectivos precios.
       </p>
-      <label for="nombre">Nombre</label>
+      <label for="nombre">Nombre y Apellido</label>
       <input type="text" name="nombre-ctz" id="nombre-ctz" />
       <label for="correo-ctz">Correo</label>
       <input type="email" name="correo-ctz" id="correo-ctz" />
-      <!-- No estoy seguro si es mejor usar un boton o un input -->
-      <input
-        class="enviar-mkt"
-        type="submit"
-        value="Enviar"
-        id="envio-catalogo"
-      />
+      <!-- No estoy seguro si es mejor usar un boton o un input, ademas use el mismo id del boton "btn-ctz"  pero  de clases diferentes-->
+      <button class="btn-enviar-cat" id="enviar-peticion">Enviar</button>
     </div>
   </body>
 </html>
